@@ -17,9 +17,18 @@ This application generates a README.md file for use in a GitHub Repo by means of
 Download the files to your computer. Open a terminal console and make sure you are navigated to the folder containing index.js. From there run 'node index.js' and follow the prompts that appear.
 
 ## Usage
-This project is used to help create a basic README.md file which contains all the essential elements. For a video walkthrough of how to use it, please see the video at the following link:
+This project is used to help create a basic README.md file which contains all the essential elements. For a video walkthrough of how to use it, follow the video at the following link:  
+https://watch.screencastify.com/v/3ZSQiwVnhweXGWOVKnk0
 
+Or refer to the following steps:
+1. Open terminal and have the address of the index.js file ready, navigate to the address in your terminal:
+![Step 1](utils/step1.png)
 
+2. Run **node index.js** in your terminal, and follow steps given.
+![Step 2](utils/step2.png)
+
+3. The outputed README.md file is located in the output folder. You can open and preview it in Visual Studio Code.
+![Step 3](utils/step3.png)
 
 ## License
 Distributed under the MIT. Visit [MIT](https://opensource.org/licenses/MIT) for more information.
