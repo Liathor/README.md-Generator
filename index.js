@@ -90,7 +90,7 @@ let readMeTemplate = generateMarkdown(answers);
     fs.writeFile(`output/${fileName}`, 
             readMeTemplate, 
     (err) =>
-        err ? console.error(err) : console.log(colors.brightGreen('Success!')))
+        err ? console.error(err) : console.log(colors.brightGreen('Success! Look in the output folder for your new README.md.')))
 }
 
 // TODO: Create a function to initialize app
