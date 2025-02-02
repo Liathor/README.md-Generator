@@ -18,7 +18,7 @@ Download the files to your computer. Open a terminal console and make sure you a
 
 ## Usage
 This project is used to help create a basic README.md file which contains all the essential elements. For a video walkthrough of how to use it, follow the video at the following link:  
-https://watch.screencastify.com/v/3ZSQiwVnhweXGWOVKnk0
+https://drive.google.com/file/d/1iFL2RczBO0d5ehqle7agPy6OlQqJRZ4J/view
 
 Or refer to the following steps:
 1. Open terminal and have the address of the index.js file ready, navigate to the address in your terminal:
