@@ -1,9 +1,9 @@
-![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-# Sample README
+# Employee Tracker
 
 ## Description
-This is a description for a sample README file.
+This is a terminal application which serves as a database for a company's departments, roles, and employees. It can be used to tie role to departments and employees to roles, as well as tie managers to employees, all stored in a simple but effective database.
 
 ## Table Of Contents
 1. [Installation](#installation)
@@ -14,19 +14,19 @@ This is a description for a sample README file.
 6. [Questions](#questions)
 
 ## Installation
-You can install the file by downloading the files and running them
+Install all the files. Then run the SQL schema and seeds files to build and populate the database. Next you will need to rename the env.example file to .env, and put your SQL username and password in there. Once you have that done, open a terminal window in the main folder, and run 'npm i' to install all the required dependencies for the application. You are now ready to run the program.
 
 ## Usage
-Open the file and proceed as instructed.
+Open a terminal window in the main folder of the application, and type 'npm start'. This will build and execute the program. You can then navigate the employee manager in the terminal using the arrow keys and the enter key. For a more detailed walkthrough on using the program, please refer to the video below:
 
 ## License
-Distributed under the Creative Commons Zero v1.0 Universal. Visit [CC0-1.0](http://creativecommons.org/publicdomain/zero/1.0/) for more information.
+Distributed under the MIT. Visit [MIT](https://opensource.org/licenses/MIT) for more information.
 
 ## Contribution Guidelines
-None at the moment
+None
 
 ## Tests
-Many over the course of time.
+VS Code
 
 ## Questions
 Feel free to reach out to me if you have any questions, or if you'd like to find out what else I've worked on. My details are as follows:  

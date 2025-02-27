@@ -80,7 +80,7 @@ const questions = [
     }
 ];
 
-let answers = {};
+
 
 function writeToFile(fileName, answers) { 
     
@@ -94,19 +94,15 @@ let readMeTemplate = generateMarkdown(answers);
 }
 
 // TODO: Create a function to initialize app
-function init() {
+function init(answers) {
     writeToFile('README.md', answers);
 }
 
 // Function call to initialize app and start inquirer
 
 inquirer
-.prompt(
-    questions,
-)
-.then(
-    (response) => {
-        answers = response;
-        init();
+.prompt(questions)
+    .then((answers) => {
+        init(answers);
     }
 )
